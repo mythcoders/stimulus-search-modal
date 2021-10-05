@@ -1,0 +1,35 @@
+{
+  "name": "stimulus-search-modal",
+  "version": "0.1.0",
+  "description": "A Stimulus controller to create a modal that allows users to search.",
+  "keywords": [
+    "stimulus",
+    "stimulusjs",
+    "stimulus controller",
+    "dropdown"
+  ],
+  "repository": "git@github.com:mythcoders/stimulus-search-modal.git",
+  "bugs": {
+    "url": "https://github.com/mythcoders/stimulus-search-modal/issues"
+  },
+  "author": "Justin Adkins <justin@mythcoders.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/mythcoders/stimulus-search-modal",
+  "private": false,
+  "scripts": {
+    "format": "prettier-standard  '**/*.{ts,css,html}' --format",
+    "lint": "prettier-standard  '**/*.{ts,css,html}' --lint",
+    "dev": "",
+    "prod": "",
+    "build": "",
+    "version": "yarn build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "prettier-standard": "16.4.1",
+    "stimulus": "^2.0.0"
+  },
+  "peerDependencies": {
+    "stimulus": "^2.0.0"
+  }
+}
